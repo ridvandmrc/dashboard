@@ -1,1 +1,1 @@
-export * from "./Increase";
+export * from "./SvgImages";
