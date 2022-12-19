@@ -50,7 +50,9 @@
   },
   "devDependencies": {
     "@types/react-plotly.js": "^2.5.2",
+    "@types/react-table": "^7.7.12",
     "react-app-rewire-alias": "^1.1.7",
-    "react-app-rewired": "^2.2.1"
+    "react-app-rewired": "^2.2.1",
+    "react-table": "^7.8.0"
   }
 }

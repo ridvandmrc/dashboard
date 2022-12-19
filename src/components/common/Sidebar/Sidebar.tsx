@@ -28,7 +28,7 @@ const SideBarListItem: FC<ListItemProps> = ({
 export const Sidebar = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   return (
-    <Stack sx={{ maxWidth: 250, height: "100vh" }}>
+    <Stack sx={{ maxWidth: 250, height: "100vh", position: "sticky", top: 0 }}>
       <Stack direction="row" sx={{ margin: "2rem", alignItems: "center" }}>
         <Logo.Dashboard />
         <Typography

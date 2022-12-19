@@ -6,3 +6,4 @@ export * from "./IconBox";
 export * from "./ProfitCard";
 export * from "./TotalEarningIndicator";
 export * from "./SaleCountry";
+export * from "./Table";
