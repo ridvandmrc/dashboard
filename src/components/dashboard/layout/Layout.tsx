@@ -16,7 +16,9 @@ export const Layout: FC = () => {
         <Sales />
       </Grid>
       <Grid item sm={1} md={1} lg={1}>
-        <CommonTable sx={{ backgroundColor: "white", borderRadius: "0.5rem" }} />
+        <CommonTable
+          sx={{ backgroundColor: "white", borderRadius: "0.5rem" }}
+        />
       </Grid>
     </Grid>
   );

@@ -32,7 +32,7 @@ const StaticCardsItem: FC<IStaticCardItemProps> = ({
 
 export const SellingSummary = () => (
   <Grid container columns={3} spacing={3}>
-    <Grid item md={1} lg={1}>
+    <Grid item sm={3} md={1} lg={1}>
       <GenericCard
         title="Congragulations Jhon! 🥳"
         sx={{ minHeight: "150px", maxHeight: "150px" }}
@@ -67,7 +67,7 @@ export const SellingSummary = () => (
         </Stack>
       </GenericCard>
     </Grid>
-    <Grid item md={2} lg={2}>
+    <Grid item sm={3} md={2} lg={2}>
       <GenericCard
         title="Statics Card"
         actionsButton

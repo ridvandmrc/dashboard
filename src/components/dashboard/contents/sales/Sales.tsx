@@ -49,7 +49,7 @@ const ExportSalesItem: FC<IExportSalesItemProps> = ({
 
 export const Sales = () => (
   <Grid container columns={6} spacing={3} alignItems="stretch">
-    <Grid item md={2} lg={2}>
+    <Grid item sm={6} md={2} lg={2}>
       <GenericCard
         actionsButton
         title="Sales by Country"
@@ -62,7 +62,7 @@ export const Sales = () => (
         <SaleCountry />
       </GenericCard>
     </Grid>
-    <Grid item md={4} lg={4}>
+    <Grid item sm={6} md={4} lg={4}>
       <GenericCard title="" sx={{ minHeight: "150px" }}>
         <Stack
           direction="row"
